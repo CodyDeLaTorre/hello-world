@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random News Home</title>
-    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script src="message.js"></script>
+    <script src="app.js"></script>
     <header>
         <img id="Random-logo" src="images/Random-News-Logo.PNG"/>
         <nav>
@@ -17,6 +19,7 @@
                 <li><a class="header-link" href="placeholder.com">Politics</a></li>
                 <li><a class="header-link" href="placeholder.com">Economy</a></li>
                 <li><a class ="header-link" href="https://jason-christopher.github.io/hello-world/">Partner News Station</a></li>
+                <li><button type="button" onclick="signUp()">Newsletter</button></li>
             </ul>
         </nav>
     </header>
@@ -33,10 +36,15 @@
         </section>
     </main>
     <footer>
-        <p>Contact Us</p>
-        <img class="social" id="twitter" src="images/twitter.jpg"/>
-        <img class="social" id="facebook" src="images/facebook.png"/>
-        <img class="social" id="instagram" src="images/instagram.png"/>
+        <button type="button" onclick="contactUs()">Contact Us</button>
+        <script src="app.js">
+        </script>
+        <a href="https://twitter.com/?lang=en">
+        <img class="social" id="twitter" src="images/twitter.jpg"/></a>
+        <a href="https://www.facebook.com/">
+        <img class="social" id="facebook" src="images/facebook.png"/></a>
+        <a href="https://www.instagram.com/">
+        <img class="social" id="instagram" src="images/instagram.png"/></a>
         <p class="social">&copy; 2022 Random News Network. All Rights Reserved.</p>
     </footer>
 </body>
