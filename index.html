@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="message.js"></script>
     <script src="app.js"></script>
     <header>
         <img id="Random-logo" src="images/Random-News-Logo.PNG"/>
@@ -18,8 +17,8 @@
                 <li><a class="header-link" href="placeholder.com">Global News</a></li>
                 <li><a class="header-link" href="placeholder.com">Politics</a></li>
                 <li><a class="header-link" href="placeholder.com">Economy</a></li>
-                <li><a class ="header-link" href="https://jason-christopher.github.io/hello-world/">Partner News Station</a></li>
-                <li><button type="button" onclick="signUp()">Newsletter</button></li>
+                <li><a class ="header-link" href="https://jason-christopher.github.io/hello-world/" target="_blank" rel="noopener noreferrer">Partner News Station</a></li>
+                <li><button id="navButton" type="button" onclick="signUp()">Newsletter</button></li>
             </ul>
         </nav>
     </header>
@@ -36,14 +35,12 @@
         </section>
     </main>
     <footer>
-        <button type="button" onclick="contactUs()">Contact Us</button>
-        <script src="app.js">
-        </script>
-        <a href="https://twitter.com/?lang=en">
+        <button id="contactButton" type="button" onclick="contactUs()">Contact Us</button>
+        <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer">
         <img class="social" id="twitter" src="images/twitter.jpg"/></a>
-        <a href="https://www.facebook.com/">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
         <img class="social" id="facebook" src="images/facebook.png"/></a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
         <img class="social" id="instagram" src="images/instagram.png"/></a>
         <p class="social">&copy; 2022 Random News Network. All Rights Reserved.</p>
     </footer>
