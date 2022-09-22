@@ -1,21 +1,20 @@
 'use strict';
 
-let userName = prompt("Welcome to my news page! What is your name?")
+ let userName = prompt("Welcome to my news page! What is your name?")
 
 
-if(userName === "Kassie" || userName === "kassie" ){
-    alert("Welcome teach!")
+if (userName === "Kassie" || userName === "kassie" ){
+       alert("Welcome teach!")
 } else if (userName == "Cody" || userName == "cody"){
-    alert("Welcome, creator.")
+  alert("Welcome, creator.")
 }else if (userName === "Kai" || userName === "kai"){
     alert("oh it's you...")
 } else if (userName == ""){
-    prompt("Please enter you name!")
-    if(userName == ""){
-        alert("I didn't want to know you anyway")
+    while(userName == ""){
+        userName = prompt("That's not a name")
     }
 } else {
-    alert("Enjoy the news :) " + userName)
+  alert("Enjoy the news :) " + userName)
 }
 
 
@@ -27,6 +26,12 @@ function signUp(){
 };
 
 
+function catTakeover(){
+    let catInput = prompt("How many cats are there?");
+    for(let i = 0 ; i < catInput; i++){
+        document.write("<img src='images/cat.PNG'>")
+    };
+};
 
 
 function contactUs(){
